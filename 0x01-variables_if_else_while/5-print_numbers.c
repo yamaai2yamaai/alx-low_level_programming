@@ -1,16 +1,15 @@
 #include <stdio.h>
+
 /**
- * main - main function
+ * main - entry point
  *
- * Return: always 0
+ * Return: always 0 (successful)
  */
 int main(void)
-	int i;
-	i = 0
-
-	while (i < 10)
 {
-	printf("%d", i);
-	i++;
+	int i;
+
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
 	return (0);
 }
